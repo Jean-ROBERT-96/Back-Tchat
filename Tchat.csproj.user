@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="gui\ChannelManage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="gui\Connection.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="gui\Search.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="gui\UserManage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="gui\ChannelManage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="gui\Connection.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="gui\MainTchat.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="gui\Search.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="gui\UserManage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

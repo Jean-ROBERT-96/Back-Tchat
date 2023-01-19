@@ -1,0 +1,12 @@
+﻿<Window x:Class="Tchat.MainTchat"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tchat"
+        mc:Ignorable="d"
+        Title="JR's Tchat" Height="650" Width="1100" ResizeMode="CanMinimize" Icon="/ressources/icon.png" WindowStartupLocation="CenterScreen">
+    <Grid>
+
+    </Grid>
+</Window>
