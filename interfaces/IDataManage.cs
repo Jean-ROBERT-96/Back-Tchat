@@ -8,5 +8,8 @@ namespace Tchat.interfaces
 {
     public interface IDataManage<T>
     {
+        void Add(T item);
+        void Edit(T item);
+        void Delete(T item);
     }
 }

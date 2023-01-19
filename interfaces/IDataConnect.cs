@@ -8,5 +8,6 @@ namespace Tchat.interfaces
 {
     public interface IDataConnect
     {
+        void APIConnect();
     }
 }

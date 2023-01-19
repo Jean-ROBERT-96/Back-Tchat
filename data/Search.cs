@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Tchat.data
 {
-    internal class Search
+    public class Search
     {
     }
 }

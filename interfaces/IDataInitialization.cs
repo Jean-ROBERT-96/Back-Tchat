@@ -8,5 +8,6 @@ namespace Tchat.interfaces
 {
     public interface IDataInitialization<T>
     {
+        ICollection<T> DataInitialization();
     }
 }
