@@ -28,18 +28,6 @@ namespace Tchat.data
             }
         }
 
-        public async Task<T> GetConnect(string controller)
-        {
-            using (client = new HttpClient())
-            {
-                client.BaseAddress = new Uri(url);
-                var response = await client.GetAsync(controller);
-
-                var data = response.Content.ReadAsStringAsync().Result;
-                return JsonConvert.DeserializeObject<T>(data);
-            }
-        }
-
         public async Task<bool> PostConnect(string controller, T obj)
         {
             using(client = new HttpClient())

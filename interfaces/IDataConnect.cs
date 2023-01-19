@@ -9,7 +9,6 @@ namespace Tchat.interfaces
     public interface IDataConnect<T>
     {
         Task<ICollection<T>> GetListConnect(string controller);
-        Task<T> GetConnect(string controller);
         Task<bool> PostConnect(string controller, T obj);
         Task<bool> PutConnect(string controllerId, T obj);
         Task<bool> DeleteConnect(string controllerId);
